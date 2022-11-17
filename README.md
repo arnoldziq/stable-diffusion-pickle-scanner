@@ -6,6 +6,9 @@ Example output (with `numpy` considered "non-standard"):
 
 ![Code_-_Insiders_Db9qYRswOQ](https://user-images.githubusercontent.com/114846827/200138825-777e4e43-67c0-44cb-b5a7-80ee141ceb7c.png)
 
+
+
+
 ## How to use
 
 1. Export `pickle_inspector.py` and `pickle_scan.py` to your Stable Diffusion WebUI base directory
@@ -21,7 +24,7 @@ If you get an error about torch not being installed, start your webui and copy t
 >
 > Final command would look like:
 >
-> `"F:\Projects\stable-diffusion-webui\venv\Scripts\Python.exe" pickle_scan.py models > scan_output.txt`
+> `"F:\Projects\stable-diffusion-webui\venv\Scripts\Python.exe" pickle_scan.py`
 
 ## Usage
 
@@ -32,16 +35,12 @@ python pickle_scan.py [directory] [debugmode]
 Example
 
 ```shell
-python pickle_scan.py models
+python pickle_scan.py
 ```
 
 ## Debug Mode
 
-Add `1` after directory to see which calls / signals triggered the scan failure.
-
-```
-python pickle_scan.py models 1 > scan_output.txt
-```
+Allways ON
 
 ## Notes
 
