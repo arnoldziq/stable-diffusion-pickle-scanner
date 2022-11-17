@@ -13,7 +13,7 @@ Example output (with `numpy` considered "non-standard"):
 
 1. Export `pickle_inspector.py` and `pickle_scan.py` to your Stable Diffusion WebUI base directory
 2. Open bash / CMD
-3. Run command `python pickle_scan.py models > scan_output.txt`
+3. Run command `python pickle_scan.py > scan_output.txt`
 4. Open `scan_output.txt`
 
 If you get an error about torch not being installed, start your webui and copy the venv python path and replace `python` with that path. 
