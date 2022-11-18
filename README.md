@@ -29,8 +29,7 @@ If you get an error about torch not being installed, start your webui and copy t
 ## Usage
 
 ```shell
-python pickle_scan.py [directory] [debugmode]
-```
+python pickle_scan.py
 
 Example
 
